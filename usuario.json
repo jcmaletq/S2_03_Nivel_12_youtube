@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "6181ae0979b78cc8ed72f656"
+  },
+  "id_usu": 1,
+  "email": "usuario1@gmail.com",
+  "passw": "passw_u1",
+  "born_on": {
+    "$date": "2021-10-19T22:00:00Z"
+  },
+  "sex": "M",
+  "zip_code": "abc1234",
+  "Country": "España"
+},{
+  "_id": {
+    "$oid": "6181b01979b78cc8ed72f657"
+  },
+  "id_usu": 2,
+  "email": "usuario2@gmail.com",
+  "passw": "passw_u2",
+  "born_on": {
+    "$date": "2021-10-19T22:00:00Z"
+  },
+  "sex": "F",
+  "zip_code": "abc1234",
+  "Country": "España"
+}]

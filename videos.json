@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "6181b0d279b78cc8ed72f65a"
+  },
+  "id_vid": 1,
+  "titel": "bambi",
+  "descrip": "dibujo animado infantil",
+  "size": 12.58,
+  "size_unit": "Mg",
+  "file_name": "Wal_Dis_Bamby.wma",
+  "dura": 0,
+  "thumbnail": "xx",
+  "cont_play": 10,
+  "cont_likes": 2,
+  "cont_dislikes": 5,
+  "labels": [
+    {
+      "id_label": 1
+    }
+  ],
+  "canales": [
+    {
+      "id_chan": 1
+    }
+  ],
+  "id_visib": 1
+},{
+  "_id": {
+    "$oid": "61829df21612a5250364148e"
+  },
+  "id_vid": 2,
+  "titel": "la bella y la ..",
+  "descrip": "dibujo animado infantil",
+  "size": 12.58,
+  "size_unit": "Mg",
+  "file_name": "Wal_Dis_Bella.wma",
+  "dura": 0,
+  "thumbnail": "xx",
+  "cont_play": 10,
+  "cont_likes": 2,
+  "cont_dislikes": 5,
+  "labels": [
+    {
+      "id_label": 2
+    }
+  ],
+  "canales": [
+    {
+      "id_chan": 2
+    }
+  ],
+  "id_visib": 2
+},{
+  "_id": {
+    "$oid": "61829ee71612a5250364148f"
+  },
+  "id_vid": 3,
+  "titel": "xxx",
+  "descrip": "sexo adulto",
+  "size": 12.58,
+  "size_unit": "Mg",
+  "file_name": "xx_sexe.wma",
+  "dura": 0,
+  "thumbnail": "xx",
+  "cont_play": 10,
+  "cont_likes": 2,
+  "cont_dislikes": 5,
+  "labels": [
+    {
+      "id_label": 3
+    }
+  ],
+  "canales": [
+    {
+      "id_chan": 3
+    }
+  ],
+  "id_visib": 2
+}]

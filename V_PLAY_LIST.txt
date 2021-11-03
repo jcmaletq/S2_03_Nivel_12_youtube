@@ -1,0 +1,29 @@
+
+S2_03_NIVEL_2_YOUTUBE.V_PLAY_LIST"
+
+[{$lookup: {
+  from: 'usuario',
+  localField: 'id_usu',
+  foreignField: 'id_usu',
+  as: 'creador'
+}}, {$lookup: {
+  from: 'usu_play',
+  localField: 'id_pla',
+  foreignField: 'id_pla',
+  as: 'int_usu'
+}}, {$lookup: {
+  from: 'usuario',
+  localField: 'int_usu.id_usu',
+  foreignField: 'id_usu',
+  as: 'usuarios'
+}}, {$lookup: {
+  from: 'play_vid',
+  localField: 'id_pla',
+  foreignField: 'id_pla',
+  as: 'int_vid'
+}}, {$lookup: {
+  from: 'videos',
+  localField: 'int_vid.id_vid',
+  foreignField: 'id_vid',
+  as: 'videos'
+}}]

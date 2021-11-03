@@ -1,0 +1,14 @@
+
+"S2_03_NIVEL_2_YOUTUBE.V_LIKES"
+
+[{$lookup: {
+  from: 'usuario',
+  localField: 'id_usu',
+  foreignField: 'id_usu',
+  as: 'usu_like'
+}}, {$lookup: {
+  from: 'videos',
+  localField: 'id_vid',
+  foreignField: 'id_vid',
+  as: 'videos_like'
+}}]

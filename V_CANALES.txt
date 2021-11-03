@@ -1,0 +1,19 @@
+
+S2_03_NIVEL_2_YOUTUBE.V_CANALES
+
+[{$lookup: {
+  from: 'usu_canal',
+  localField: 'id_can',
+  foreignField: 'id_can',
+  as: 'usu_can'
+}}, {$lookup: {
+  from: 'usuario',
+  localField: 'id_usu',
+  foreignField: 'id_usu',
+  as: 'usuarios'
+}}, {$lookup: {
+  from: 'videos',
+  localField: 'id_can',
+  foreignField: 'canales.id_chan',
+  as: 'videos'
+}}]

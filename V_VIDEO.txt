@@ -1,0 +1,44 @@
+
+S2_03_NIVEL_2_YOUTUBE.V_VIDEO
+
+[{$lookup: {
+  from: 'visibilidad',
+  localField: 'id_visib',
+  foreignField: 'id_visib',
+  as: 'visibilidad'
+}}, {$lookup: {
+  from: 'video_labels',
+  localField: 'labels.id_label',
+  foreignField: 'id_label',
+  as: 'labels'
+}}, {$lookup: {
+  from: 'v_usua_public_vide',
+  localField: 'id_vid',
+  foreignField: 'id_vid',
+  as: 'info_publica'
+}}, {$lookup: {
+  from: 'v_canales',
+  localField: 'canales.id_chan',
+  foreignField: 'id_can',
+  as: 'info_canal'
+}}, {$lookup: {
+  from: 'v_likes',
+  localField: 'id_vid',
+  foreignField: 'id_vid',
+  as: 'info_likes'
+}}, {$lookup: {
+  from: 'v_dislike',
+  localField: 'id_vid',
+  foreignField: 'id_vid',
+  as: 'info_dislikes'
+}}, {$lookup: {
+  from: 'v_play_list',
+  localField: 'id_vid',
+  foreignField: 'int_vid.id_vid',
+  as: 'info_play_list'
+}}, {$lookup: {
+  from: 'v_comentarios',
+  localField: 'id_vid',
+  foreignField: 'id_vid',
+  as: 'info_comentarios'
+}}]

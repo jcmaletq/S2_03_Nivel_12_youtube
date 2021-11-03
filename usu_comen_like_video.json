@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "61828f0e1612a52503641434"
+  },
+  "id_lik_com": 1,
+  "id_usu": 1,
+  "id_com": 1,
+  "like": true,
+  "created_at": {
+    "$date": "2021-11-19T23:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6182a61e1612a525036414e8"
+  },
+  "id_lik_com": 2,
+  "id_usu": 1,
+  "id_com": 2,
+  "like": true,
+  "created_at": {
+    "$date": "2021-11-19T23:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6182a6371612a525036414e9"
+  },
+  "id_lik_com": 3,
+  "id_usu": 2,
+  "id_com": 3,
+  "like": true,
+  "created_at": {
+    "$date": "2021-11-19T23:00:00Z"
+  }
+}]

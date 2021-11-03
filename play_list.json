@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "618286741612a525036413f7"
+  },
+  "id_pla": 1,
+  "id_usu": 1,
+  "name": "play list 1",
+  "created_at": {
+    "$date": "2021-11-19T23:00:00Z"
+  },
+  "play_public": true
+},{
+  "_id": {
+    "$oid": "61829d7f1612a52503641489"
+  },
+  "id_pla": 2,
+  "id_usu": 2,
+  "name": "play list 2",
+  "created_at": {
+    "$date": "2021-11-19T23:00:00Z"
+  },
+  "play_public": true
+},{
+  "_id": {
+    "$oid": "6182a3a81612a525036414ba"
+  },
+  "id_pla": 3,
+  "id_usu": 1,
+  "name": "play list 3",
+  "created_at": {
+    "$date": "2021-11-19T23:00:00Z"
+  },
+  "play_public": true
+}]

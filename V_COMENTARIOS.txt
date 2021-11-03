@@ -1,0 +1,24 @@
+
+"S2_03_NIVEL_2_YOUTUBE.V_COMENTARIOS"
+
+[{$lookup: {
+  from: 'videos',
+  localField: 'id_vid',
+  foreignField: 'id_vid',
+  as: 'video'
+}}, {$lookup: {
+  from: 'usuario',
+  localField: 'id_usu',
+  foreignField: 'id_usu',
+  as: 'usuario'
+}}, {$lookup: {
+  from: 'usu_comen_like_video',
+  localField: 'id_com',
+  foreignField: 'id_com',
+  as: 'usu_comen_like'
+}}, {$lookup: {
+  from: 'usuario',
+  localField: 'usu_comen_like.id_usu',
+  foreignField: 'id_usu',
+  as: 'usuarios_coment'
+}}]

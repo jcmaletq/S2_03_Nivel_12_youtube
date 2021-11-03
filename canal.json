@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "61827e991612a525036413e2"
+  },
+  "id_can": 1,
+  "name": "canal1",
+  "desc": "desc canal 1",
+  "id_usu": 1,
+  "created_on": {
+    "$date": "2021-10-19T22:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "61829d281612a52503641486"
+  },
+  "id_can": 2,
+  "name": "canal2",
+  "desc": "desc canal 2",
+  "id_usu": 2,
+  "created_on": {
+    "$date": "2021-10-19T22:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "61829f661612a52503641492"
+  },
+  "id_can": 3,
+  "name": "canal3",
+  "desc": "desc canal 3",
+  "id_usu": 2,
+  "created_on": {
+    "$date": "2021-10-19T22:00:00Z"
+  }
+}]
